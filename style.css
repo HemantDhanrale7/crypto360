@@ -1,0 +1,136 @@
+.hedding {
+  text-align: center;
+  color: black;
+  font: bold;
+  font-size: 50px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: large;
+  background-color: cyan;
+}
+header {
+  color: white;
+  text-align: center;
+  /* background-color: ghostwhite; */
+  background-color: indigo;
+}
+
+p {
+  font-size: larger;
+  font-weight: bolder;
+  text-align: left;
+  padding: 2mm;
+}
+h2 {
+  text-align: center;
+}
+
+.container img {
+  padding: 10px;
+  width: 500px;
+  float: left;
+  margin-right: 10px;
+  margin: bottom 5px;
+}
+.container p {
+  font-size: 20px;
+  padding: 40px;
+  background-color: silver;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  margin: 5px;
+  padding: 10px;
+  height: 300px;
+}
+/* Clear floats after the columns */
+.container2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container3 img {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.columnImg {
+  float: left;
+  width: 32%;
+  margin: 5px;
+  padding: 10px;
+}
+.columnImg img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.logintab {
+  padding: 20px;
+  background-color: #f1f1f1;
+  width: 40%;
+  margin-left: 30%;
+}
+
+/* Style the input elements and the submit button */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: blueviolet;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  width: 15%;
+  margin-left: 30%;
+  padding: 2mm;
+  border: 2px solid black;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.7;
+}
+
+/* footer css */
+.columnfoot {
+  float: left;
+  width: 15%;
+  margin: 5px;
+  padding: 10px;
+  height: 230px;
+}
+/* Clear floats after the columns */
+.footcontainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.icons {
+  margin-top: 20%;
+  margin-left: 20%;
+  align-items: center;
+  cursor: pointer;
+}
+.paymentlogo {
+  margin-left: 45%;
+  cursor: pointer;
+}
